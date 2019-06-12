@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Refresh'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of Refresh.'
+  s.version          = '0.0.1'
+  s.summary          = 'An extension for RxSwift and MJRefresh.'
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
@@ -28,5 +28,7 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
+  s.dependency 'MJRefresh'
 end
